@@ -1,10 +1,15 @@
 import './App.css';
+import {Route, Routes} from "react-router-dom";
+import MyInfo from '../MyInfo/MyInfo';
 
 function App() {
   return (
-   <>
-   <h1>This is my Profile</h1>
-   </>
+    <Routes>
+
+    <Route  path="/" element={<MyInfo />} />
+
+
+    </Routes>
   );
 }
 

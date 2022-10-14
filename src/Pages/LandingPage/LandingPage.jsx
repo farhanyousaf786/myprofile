@@ -4,13 +4,12 @@ import Lottie from "lottie-react";
 import animationData from './developer.json';
 
 
-
-
 function LandingPage() {
 
 
   return (
 
+    
 
    <div className="main">
    <div className = "left-container" >
@@ -18,7 +17,6 @@ function LandingPage() {
    <img className="profile-img" src="https://imgur.com/ggbj9e9.png" alt=""/>
    </div>
    </div>
-  
 
 
    <div className="right-container">

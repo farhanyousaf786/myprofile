@@ -15,7 +15,7 @@ body {background-color: rgb(255, 255, 255);}
   width: 30%;
   border-bottom-right-radius: 100px;
   border-top-right-radius: 100px;
-  box-shadow: rgb(53, 53, 53) 1px 1px 1px 1px;
+  box-shadow: rgb(53, 53, 53) 2px 2px 2px 2px;
 }
 
 .left-container ul {

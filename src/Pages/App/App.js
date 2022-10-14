@@ -1,15 +1,16 @@
 import './App.css';
 import {Route, Routes} from "react-router-dom";
-import MyInfo from '../MyInfo/MyInfo';
+import LandingPage from '../LandingPage/LandingPage';
 
 function App() {
   return (
+
+    <div className="background">
     <Routes>
-
-    <Route  path="/" element={<MyInfo />} />
-
-
+    <Route  path="/" element={<LandingPage />} />
     </Routes>
+    </div>
+
   );
 }
 

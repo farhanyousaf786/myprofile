@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './LandingPage.css';
 
 
@@ -11,11 +11,9 @@ function LandingPage() {
 
 <div class="main">
 
-
-
   <div className = "left-container" >
           <div className="profile-avatar">
-      <img className="profile-img" src="https://imgur.com/ggbj9e9.png"/>
+      <img className="profile-img" src="https://imgur.com/ggbj9e9.png" alt=""/>
       </div>
       
   </div>
@@ -24,8 +22,18 @@ function LandingPage() {
 
 
   <div class="right-container">
-    <h2>Hello World! I am Farhan</h2>
     
+  <h1>
+  <span>Hi! I am Farhan Yousaf.</span>
+
+  </h1>
+
+  <h1>
+  <span>I am full stack software developer.</span> 
+
+
+  </h1>
+
   </div>
 </div>
 

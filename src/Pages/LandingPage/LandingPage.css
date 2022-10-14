@@ -30,14 +30,23 @@ body, ul {
 width: 200px;
 height: 200px;
 border-radius: 100px;
+box-shadow: rgba(0, 0, 0, 0.809) 2px 2px 2px 2px;
+
+
 }
 
 .profile-avatar{
-
-
   display: flex;
   justify-content: center;
   align-items: center;
   height: 800px;
   margin-left: 100%;
+
+  
+}
+
+.profile-avatar:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
 }

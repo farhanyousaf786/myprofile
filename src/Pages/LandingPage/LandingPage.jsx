@@ -1,10 +1,14 @@
 import React from 'react';
 import './LandingPage.css';
+import Lottie from "lottie-react";
+import animationData from './developer.json';
+
 
 
 
 function LandingPage() {
-  
+
+
   return (
 
 
@@ -22,14 +26,18 @@ function LandingPage() {
 
   <div className="right-container">
   
-  <div className="main-caption">
 
+  <center>
+  <div className='lottie1'>  <Lottie animationData={animationData} loop={true}/>
+</div>
+    </center>
+  <div className="main-caption">
+  
   <h1><span>Hi! I am Farhan Yousaf.</span></h1>
   <h1><span>I am full stack software developer.</span></h1>
   <h1><span>Developed in React & Flutter full.</span></h1>
-
+   
   </div>
-
 
   </div>
 

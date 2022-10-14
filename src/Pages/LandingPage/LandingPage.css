@@ -126,7 +126,14 @@ span:nth-child(1) {
 
 .main-caption{
 text-align: center;
-padding-left: 10%;
-padding-top: 10%;
+padding-left: 13%;
+padding-top: 0%;
 
+}
+
+
+.lottie1{
+
+  width: 400px;
+  height: 400px;
 }

@@ -7,9 +7,8 @@ function LandingPage() {
   
   return (
 
-<>
 
-<div class="main">
+<div className="main">
 
   <div className = "left-container" >
           <div className="profile-avatar">
@@ -21,26 +20,20 @@ function LandingPage() {
 
 
 
-  <div class="right-container">
-    
-  <h1>
-  <span>Hi! I am Farhan Yousaf.</span>
+  <div className="right-container">
+  
+  <div className="main-caption">
 
-  </h1>
-
-  <h1>
-  <span>I am full stack software developer.</span> 
-
-
-  </h1>
+  <h1><span>Hi! I am Farhan Yousaf.</span></h1>
+  <h1><span>I am full stack software developer.</span></h1>
+  <h1><span>Developed in React & Flutter full.</span></h1>
 
   </div>
+
+
+  </div>
+
 </div>
-
-
-
-
-</>
 
   );
 }

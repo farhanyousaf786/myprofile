@@ -9,14 +9,28 @@ function LandingPage() {
 
 <>
 
-<div className="container">
+<div class="main">
 
-<div className="profile-avatar">
-<img className="profile-img" src="https://imgur.com/ggbj9e9.png"/>
+
+
+  <div className = "left-container" >
+          <div className="profile-avatar">
+      <img className="profile-img" src="https://imgur.com/ggbj9e9.png"/>
+      </div>
+      
+  </div>
+  
+
+
+
+  <div class="right-container">
+    <h2>Hello World! I am Farhan</h2>
+    
+  </div>
 </div>
 
 
-</div>
+
 
 </>
 

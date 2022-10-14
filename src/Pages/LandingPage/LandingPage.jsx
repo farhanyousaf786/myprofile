@@ -28,11 +28,11 @@ function LandingPage() {
 
    <center>
    <div className="main-caption">
-   <h1><span>Hi! I am Farhan Yousaf.</span></h1>
-   <h1><span>I am full stack software developer.</span></h1>
+   <h1><span>Hi! I am Farhan Yousaf. I am full stack software developer.</span></h1>
    <h1><span>Developed in React & Flutter.</span></h1>
    </div>
    </center>
+
 
    </div>
    </div>

@@ -1,4 +1,5 @@
-  
+@import url("https://fonts.googleapis.com/css?family=Belgrano");
+
   body {background-color: rgb(255, 255, 255);}
 
 .main {
@@ -87,9 +88,27 @@ RIGHT SCREEN
     margin-left: 20%;
   
   }
+  .lottie1{
+
+    width: 400px;
+    height: 400px;
+  }
+  h1 {
+    font-family: 'Belgrano';
+    max-width: 60ch;
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+    transform: scale(1.5);
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+    padding: 5px;
+    padding-right: 12%;
+  }
 }
 
-@media only screen and (max-width: 1000px) {
+
+
+@media only screen and (max-width: 1224px) {
 
   .right-container {
 
@@ -97,23 +116,31 @@ RIGHT SCREEN
     background-color: #ffffff;
     width: 100%;
     margin-left: 3%;
+    padding-top: 40px;
   
+  }
+  
+  .lottie1{
+
+    width: 200px;
+    height: 200px;
+  }
+  h1 {
+    font-family: 'Belgrano';
+    max-width: 60ch;
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+    transform: scale(1.5);
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+    padding: 5px;
+    padding-right: 12%;
   }
 }
 
-@import url("https://fonts.googleapis.com/css?family=Belgrano");
 
-h1 {
-  font-family: 'Belgrano';
-  max-width: 60ch;
-  text-align: center;
-  margin: auto;
-  font-size: 25px;
-  transform: scale(1.5);
-  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
-  padding: 5px;
-  padding-right: 12%;
-}
+
+
 @keyframes scale {
   100% {
     transform: scale(1);
@@ -143,12 +170,6 @@ text-align: center;
 padding-left: 13%;
 padding-top: 0%;
 
-}
-
-.lottie1{
-
-  width: 400px;
-  height: 400px;
 }
 
 .tab-padding{

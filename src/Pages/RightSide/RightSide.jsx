@@ -15,10 +15,13 @@ return (
 
     
     <div className="right-container">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>
+
     <center>
     <div className='lottie1'>  <Lottie animationData={animationData} loop={true}/></div>
     </center>
  
+
     <center>
     <div className="main-caption">
     <h1><span>Hi! I am Farhan Yousaf. I am full stack software developer.</span></h1>
@@ -31,10 +34,22 @@ return (
     <div className="main-button">
     <button className="button-0" role="button">GitHub</button>
     <button className="button-0" role="button">My Projects</button>
+    </div>
+
+
+
+    <div class="rounded-social-buttons">
+        <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
 
     </div>
 
- 
+
+
+
     </div>
 )
 

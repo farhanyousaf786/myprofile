@@ -32,18 +32,18 @@ return (
 
 
     <div className="main-button">
-    <button className="button-0" role="button">GitHub</button>
+    <a  href="https://github.com/farhanyousaf786/" target="_blank"><button className="button-0" role="button">GitHub</button></a>
     <button className="button-0" role="button">My Projects</button>
     </div>
 
 
 
     <div class="rounded-social-buttons">
-        <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-        <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
-        <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a class="social-button linkedin" href="https://www.linkedin.com/in/mfarhanyousaf/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a class="social-button facebook" href="https://www.facebook.com/Farhanyousaf1996/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a class="social-button twitter" href="https://twitter.com/LaaSyLahoo" target="_blank"><i class="fab fa-twitter"></i></a>
+        {/* <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a> */}
 
     </div>
 

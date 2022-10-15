@@ -43,12 +43,19 @@ position: fixed;
   
 }
 
+h1{
+  font-family: 'Belgrano';
+  max-width: 60ch;
+  text-align: center;
+  margin: auto;
+  font-size: 15px;
+
+}
 
 
 .heading{
 
-  font-family: 'Belgrano';
-
+ font-family: 'Belgrano';
  padding-bottom: 22px;
  font-size: 16px;
 

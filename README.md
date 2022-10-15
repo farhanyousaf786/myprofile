@@ -1,6 +1,6 @@
-# My Profile Details
+# My Profile Details:
   Coming Soon!
 
 
-### Launch Here
-[My INFO](https://farhan-yousaf.herokuapp.com/)
+### Launch Here:
+[MY INFO](https://farhan-yousaf.herokuapp.com/)

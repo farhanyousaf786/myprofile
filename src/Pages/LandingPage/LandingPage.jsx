@@ -4,6 +4,7 @@ import RightSide from '../RightSide/RightSide';
 import './LandingPage.css';
 import { useMediaQuery } from 'react-responsive'
 import TabBar from '../../Components/Header/Header';
+import MyProjects from '../MyProjects/MyProjects';
 
 
 
@@ -26,6 +27,7 @@ function LandingPage() {
     {isDesktopOrLaptop && <RightSide/>}
     {isTabletOrMobile && <div className='tab-padding'> <RightSide/> </div>}
     </div>
+    <MyProjects/>
     </div>
 
   );

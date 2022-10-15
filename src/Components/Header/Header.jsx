@@ -18,10 +18,7 @@ function TabBar() {
         <div className='lottie2'>  <Lottie animationData={animationData} loop={true}/></div>
         </div>
         </a>
-       
-
-
-
+    
         </div>
     )
 }

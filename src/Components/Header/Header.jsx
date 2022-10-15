@@ -8,7 +8,6 @@ function TabBar() {
 
         <div className='header'>
         <img className="header-img" src="https://imgur.com/ggbj9e9.png" alt=""/>
-
         </div>
     )
 }

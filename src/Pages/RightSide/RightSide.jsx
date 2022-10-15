@@ -1,9 +1,11 @@
 import Lottie from "lottie-react";
 import animationData from './developer.json';
 import React from 'react';
+import { useMediaQuery } from 'react-responsive'
 
 
-function RightSide(options) {
+
+function RightSide() {
 
 
 return (

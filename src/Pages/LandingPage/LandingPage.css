@@ -76,13 +76,29 @@ box-shadow: rgba(0, 0, 0, 0.809) 2px 2px 2px 2px;
 RIGHT SCREEN
 */
 
-.right-container {
 
-  text-align: center;
-  background-color: #ffffff;
-  width: 100%;
-  margin-left: 20%;
+@media only screen and (min-width: 1224px) {
 
+  .right-container {
+
+    text-align: center;
+    background-color: #ffffff;
+    width: 100%;
+    margin-left: 20%;
+  
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .right-container {
+
+    text-align: center;
+    background-color: #ffffff;
+    width: 100%;
+    margin-left: 3%;
+  
+  }
 }
 
 @import url("https://fonts.googleapis.com/css?family=Belgrano");

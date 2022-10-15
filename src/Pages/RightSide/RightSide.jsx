@@ -7,9 +7,12 @@ import { useMediaQuery } from 'react-responsive'
 
 function RightSide() {
 
+    const isDesktopOrLaptop = useMediaQuery({query: '(min-width: 1224px)' })
+    const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
 
 return (
 
+    
     <div className="right-container">
     <center>
     <div className='lottie1'>  <Lottie animationData={animationData} loop={true}/></div>

@@ -122,15 +122,15 @@ RIGHT SCREEN
   
   .lottie1{
 
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
   }
   h1 {
     font-family: 'Belgrano';
     max-width: 60ch;
     text-align: center;
     margin: auto;
-    font-size: 18px;
+    font-size: 12px;
     transform: scale(1.5);
     animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
     padding: 5px;

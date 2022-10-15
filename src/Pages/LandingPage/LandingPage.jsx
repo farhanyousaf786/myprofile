@@ -4,17 +4,13 @@ import RightSide from '../RightSide/RightSide';
 import './LandingPage.css';
 
 
-
 function LandingPage() {
-
 
   return (
 
    <div className="main">
-
     <LeftSide/>
     <RightSide/>
-
    </div>
 
   );

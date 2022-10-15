@@ -16,7 +16,7 @@
   width: 20%;
   /* border-bottom-right-radius: 100px;
   border-top-right-radius: 100px; */
-  box-shadow: rgb(53, 53, 53) 2px 2px 2px 2px;
+  box-shadow: 0 0.7em 1.5em -0.4em #00000098;
   position: fixed;
 
 }
@@ -37,8 +37,10 @@
 width: 170px;
 height: 170px;
 border-radius: 100px;
-box-shadow: rgba(0, 0, 0, 0.809) 2px 2px 2px 2px;
 border: #ffffff solid 3px;
+background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+
+box-shadow: 0 0.7em 1.5em -0.5em #00000098;
 
 }
 

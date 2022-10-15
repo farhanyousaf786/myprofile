@@ -2,6 +2,7 @@ import Lottie from "lottie-react";
 import animationData from './developer.json';
 import React from 'react';
 import { useMediaQuery } from 'react-responsive'
+import './RightSide.css';
 
 
 
@@ -24,7 +25,15 @@ return (
     <h1><span>Developed in React & Flutter.</span></h1>
     </div>
     </center>
- 
+
+
+
+    <div className="main-button">
+    <button className="button-0" role="button">GitHub</button>
+    <button className="button-0" role="button">My Projects</button>
+
+    </div>
+
  
     </div>
 )

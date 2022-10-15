@@ -5,12 +5,9 @@
 height: 70px;
 width: 100%;
 background-color: #00a8f0;
-/* border-bottom-right-radius: 60px;
-border-bottom-left-radius: 60px; */
-  box-shadow: 0 0.7em 1.5em -0.4em #00000098;
+box-shadow: 0 0.7em 1.5em -0.4em #00000098;
 margin-bottom: 10px;
 position: fixed;
-
 
 }
 
@@ -43,7 +40,7 @@ position: fixed;
   
 }
 
-h1{
+/* h1{
   font-family: 'Belgrano';
   max-width: 60ch;
   text-align: center;
@@ -59,4 +56,4 @@ h1{
  padding-bottom: 22px;
  font-size: 16px;
 
-}
+} */

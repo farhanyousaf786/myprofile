@@ -16,7 +16,7 @@ function TabBar() {
 
         <a href='https://github.com/farhanyousaf786/switch-app' target="_blank">
         <div className='fav-project'>
-        <h1 className='heading' >Favourite</h1>    
+        {/* <h1 className='heading' >Favourite</h1>     */}
         <div className='lottie2'>  <Lottie animationData={animationData} loop={true}/></div>
         </div>
         </a>

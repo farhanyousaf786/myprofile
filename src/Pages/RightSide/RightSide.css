@@ -6,27 +6,6 @@
   
 }
 
-.button-0 {
-  font-family: 'Belgrano';
-  font-size: 14px;
-  padding: 0.9em 2.5em;
-  margin-top: 50px;
-  margin-right: 20px;
-  margin-left: 20px;
-  border: none;
-  outline: none;
-  color: rgb(255, 255, 255);
-  background: #111;
-  cursor: pointer;
-  position: relative;
-  z-index: 0;
-  border-radius: 10px;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-
 .button-0:hover {
     background-color: #ececec;
     color: rgb(0, 3, 163);
@@ -124,17 +103,14 @@ textarea {
   display: inline-block;
   position: relative;
   cursor: pointer;
-  width: 3.125rem;
-  height: 3.125rem;
   border: 0.125rem solid transparent;
-  padding: 0px;
-  margin: 20px;
+  
   text-decoration: none;
   text-align: center;
   color: #fefefe;
   font-size: 1.5625rem;
   font-weight: normal;
-  line-height: 2em;
+
   border-radius: 1.6875rem;
   transition: all 0.5s ease;
   margin-right: 0.25rem;
@@ -147,9 +123,6 @@ textarea {
           transform: rotate(360deg);
 }
 
-.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
-  font-size: 25px;
-}
 
 .rounded-social-buttons .social-button.facebook {
   background: #3b5998;
@@ -199,4 +172,84 @@ textarea {
   color: #125688;
   background: #fefefe;
   border-color: #125688;
+}
+
+
+
+
+@media only screen and (min-width: 1224px) {
+    .button-0 {
+        font-family: 'Belgrano';
+        font-size: 14px;
+        padding: 0.9em 2.5em;
+        margin-top: 50px;
+        margin-right: 20px;
+        margin-left: 20px;
+        border: none;
+        outline: none;
+        color: rgb(255, 255, 255);
+        background: #111;
+        cursor: pointer;
+        position: relative;
+        z-index: 0;
+        border-radius: 10px;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+      }
+
+      .rounded-social-buttons .social-button {
+
+        width: 3.125rem;
+        height: 3.125rem;
+        line-height: 2em;
+        margin: 20px;
+        
+      }
+      .rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
+        font-size: 25px;
+        padding: 0.5rem;
+      }
+      
+      
+}
+
+
+@media only screen and (max-width: 1224px) {
+
+    .button-0 {
+        font-family: 'Belgrano';
+        font-size: 11px;
+        padding: 0.5em 1em;
+        margin-top: 50px;
+        margin-right: 20px;
+        margin-left: 20px;
+        border: none;
+        outline: none;
+        color: rgb(255, 255, 255);
+        background: #111;
+        cursor: pointer;
+        position: relative;
+        z-index: 0;
+        border-radius: 10px;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+      }
+
+      .rounded-social-buttons .social-button {
+
+        width: 2rem;
+        height: 2rem;
+        line-height: 1em;
+        margin: 5px;
+      }
+
+      .rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
+        font-size: 13px;
+        margin-bottom: 10px;
+
+      }
+      
+
 }

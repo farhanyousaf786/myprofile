@@ -7,6 +7,7 @@ function TabBar() {
     return(
         <div className='header'>
         <img className="header-img" src="https://imgur.com/enqSQJF.png" alt=""/>
+        <div className="fav-project">Working On</div>
         </div>
     )
 }

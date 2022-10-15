@@ -22,9 +22,15 @@ position: fixed;
     padding: 5px;
     margin: 5px;
   
+
+}
+
+.fav-project{
+
+  position: absolute;
+  padding: 20px;
+  right: 0px;
   
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+
 
 }

@@ -12,8 +12,6 @@ function TabBar() {
         <div className='header'>
         <img className="header-img" src="https://imgur.com/enqSQJF.png" alt=""/>
 
-
-
         <a href='https://github.com/farhanyousaf786/switch-app' target="_blank">
         <div className='fav-project'>
         {/* <h1 className='heading' >Favourite</h1>     */}

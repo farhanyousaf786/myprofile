@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Belgrano");
 
+
+
 .header{
 
 height: 70px;
@@ -27,8 +29,9 @@ position: fixed;
 
   position: absolute;
   display: flex;
-  padding: 10px;
+  padding: 5px;
   right: 0px;
+  padding-bottom: 5px;
   
 
 }

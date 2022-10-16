@@ -1,4 +1,5 @@
 
+@media only screen and (min-width: 1224px) {
 
 .cards-data{
     
@@ -21,3 +22,31 @@
 
 
 }
+
+}
+
+
+@media only screen and (max-width: 1224px) {
+
+
+    .cards-data{
+    
+        margin-left: auto;
+        margin-right: auto;
+        display: table;
+    
+    }
+    
+    
+    .project-title{
+    
+     text-align: center;
+     padding-left: 20%;
+     font-size: 20px;
+    
+    
+    }
+
+
+}
+

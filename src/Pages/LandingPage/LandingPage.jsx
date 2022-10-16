@@ -5,11 +5,18 @@ import './LandingPage.css';
 import { useMediaQuery } from 'react-responsive'
 import TabBar from '../../Components/Header/Header';
 import MyProjects from '../MyProjects/MyProjects';
+import {useRef} from 'react';
 
 
 
 
 function LandingPage() {
+
+  const ref = useRef(null);
+
+  const handleClick = () => {
+    ref.current?.scrollIntoView({behavior: 'smooth'});
+  };
 
 
   const isDesktopOrLaptop = useMediaQuery({query: '(min-width: 1224px)' })
@@ -24,10 +31,15 @@ function LandingPage() {
     <div>{isTabletOrMobile && <TabBar/>}
     <div className="main">
     {isDesktopOrLaptop && <LeftSide/>}
-    {isDesktopOrLaptop && <RightSide/>}
+    {isDesktopOrLaptop && <RightSide
+
+          handleClick={handleClick}
+          
+          />}
     {isTabletOrMobile && <div className='tab-padding'> <RightSide/> </div>}
     </div>
-    <MyProjects/>
+    <div ref={ref}><MyProjects/></div>
+
     </div>
 
   );

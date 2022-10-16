@@ -1,40 +1,36 @@
 import React from 'react';
+import "./Card.css"
 
 
 
 
-function Card() {
+function Card({title, detail, gitRep, img, platform}) {
 
     return(
 
-
-<div class="wrapper">
-  <h1>Projects </h1>
-  <div class="cols">
-			<div class="col" ontouchstart="this.classList.toggle('hover');">
-				<div class="container">
-					<div class="front" >
-						<div class="inner">
-							<p>Switch APP</p>
-						</div>
-					</div>
-					<div class="back">
-						<div class="inner">
-						  <p>Info will be here..</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-		
-		</div>
- </div>
-
-
+    
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img  src={img}/>
+                    <h3>{title}</h3>
+					<h4>Developed In "{platform}"</h4>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>{detail}</p>
+                        <a href={gitRep}>Git Repo</a>
+                </div>
+            </div>
+        </div>
+      
+    </div>
+</body>
 
     );
-
-
 
 }
 

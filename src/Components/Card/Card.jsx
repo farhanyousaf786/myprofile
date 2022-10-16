@@ -6,8 +6,10 @@ import "./Card.css"
 
 function Card({title, detail, gitRep, img, platform}) {
 
-    return(
 
+    console.log(">>", gitRep);
+
+    return(
     
 <body>
     <div class="container">
@@ -22,7 +24,7 @@ function Card({title, detail, gitRep, img, platform}) {
             <div class="face face2">
                 <div class="content">
                     <p>{detail}</p>
-                        <a href={gitRep}>Git Repo</a>
+                        <a href={gitRep}  target="_blank">Git Repo</a>
                 </div>
             </div>
         </div>

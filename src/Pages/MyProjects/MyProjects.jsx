@@ -18,7 +18,7 @@ function MyProjects({}) {
             key={idx}
             title={data.title}
             detail={data.detail}
-            gitRep={data.gitRep}
+            gitRep={data.gitRepo}
             img={data.img}
             platform={data.platform}
 

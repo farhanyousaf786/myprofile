@@ -2,8 +2,7 @@ export default [
     {
 
       platform: 'Flutter',
-      img:
-        "https://images.unsplash.com/photo-1536514072410-5019a3c69182?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60",
+      img: "https://imgur.com/4YZWOcS.png",
       title: "Switch App",
       detail:
         "Switch is an social media app. Its also my fav. project, developed in flutter. Moreover, Firebase, Dart and Digital Ocean used init.",

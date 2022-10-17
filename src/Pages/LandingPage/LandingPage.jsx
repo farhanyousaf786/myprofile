@@ -19,7 +19,7 @@ function LandingPage() {
   let hideHeader = "false";
   const ref = useRef(null);
 
-  const handleClick = () => {
+  const handleClick1 = () => {
     ref.current?.scrollIntoView({behavior: 'smooth'});
      
   };
@@ -54,19 +54,12 @@ useEffect(() => {
 
     <div className="main">
     {isDesktopOrLaptop && <LeftSide/>}
-    {isDesktopOrLaptop && <RightSide
-
-          handleClick={handleClick}
-          
-          />}
-    {isTabletOrMobile && <div className='tab-padding'> <RightSide
-    
-    handleClick={handleClick}
-
-    /> </div>}
+    {isDesktopOrLaptop && <RightSide handleClick1={handleClick1}/>}
+    {isTabletOrMobile && <div className='tab-padding'> <RightSide handleClick1={handleClick1}/> </div>}
     </div>
-    <div ref={ref}><MyProjects/></div>
 
+
+    <div ref={ref}><MyProjects/></div>
     </div>
 
   );

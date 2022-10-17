@@ -6,7 +6,7 @@ import './RightSide.css';
 
 
 
-function RightSide({handleClick}) {
+function RightSide({handleClick1}) {
 
     const isDesktopOrLaptop = useMediaQuery({query: '(min-width: 1224px)' })
     const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
@@ -24,7 +24,7 @@ return (
 
     <center>
     <div className="main-caption">
-    <h1><span>Hi! I am Farhan Yousaf. I am full stack software developer.</span></h1>
+    <h1><span>Hi! I am Farhan Yousaf. I am full stack developer.</span></h1>
     <h1><span>Developed in React & Flutter.</span></h1>
     </div>
     </center>
@@ -33,7 +33,9 @@ return (
 
     <div className="main-button">
     <a  href="https://github.com/farhanyousaf786/" target="_blank"><button className="button-0" role="button">GitHub</button></a>
-    <button onClick={handleClick} className="button-0" role="button">My Projects</button>
+    <button onClick={handleClick1} className="button-0" role="button">My Projects</button>
+    <button onClick={handleClick1} className="button-0" role="button">My Experties</button>
+
     </div>
 
 

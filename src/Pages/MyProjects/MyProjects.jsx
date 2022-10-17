@@ -32,7 +32,7 @@ function MyProjects({}) {
 
          <>
            <h1 className='project-title'>MY PROJECTS</h1>
-         <div className='cards-data'>{cards}</div>
+        <center> <div className='cards-data'>{cards}</div></center>
          </>
 
     );

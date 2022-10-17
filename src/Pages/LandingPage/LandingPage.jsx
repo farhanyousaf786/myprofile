@@ -18,21 +18,19 @@ function LandingPage() {
   const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
 
   let hideHeader = "false";
-  const ref = useRef(null);
-  const ref2 = useRef(null);
+  const ref = useRef([]);
 
 
 
   const handleClick1 = () => {
-    ref2.current?.scrollIntoView({behavior: 'smooth'});
+    ref.current?.scrollIntoView({behavior: 'smooth'});
      
   };
 
  
   const handleClick2 = () => {
 
-    ref.current?.scrollIntoView({behavior: 'smooth'});
-    console.log('handleClick2');
+    console.log('will show popup menu here..');
 
      
   };
@@ -74,7 +72,7 @@ useEffect(() => {
 
     <div ref={ref}><MyProjects/></div>
 
-    <div  ref2={ref2}><MyExperties /></div>
+    <div ><MyExperties /></div>
     </div>
 
   );

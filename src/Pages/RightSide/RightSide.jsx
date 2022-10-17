@@ -6,7 +6,7 @@ import './RightSide.css';
 
 
 
-function RightSide({handleClick1}) {
+function RightSide({handleClick1, handleClick2}) {
 
     const isDesktopOrLaptop = useMediaQuery({query: '(min-width: 1224px)' })
     const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
@@ -34,7 +34,7 @@ return (
     <div className="main-button">
     <a  href="https://github.com/farhanyousaf786/" target="_blank"><button className="button-0" role="button">GitHub</button></a>
     <button onClick={handleClick1} className="button-0" role="button">My Projects</button>
-    <button onClick={handleClick1} className="button-0" role="button">My Experties</button>
+    <button onClick={handleClick2} className="button-0" role="button">My Experties</button>
 
     </div>
 

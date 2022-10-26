@@ -10,7 +10,7 @@ function TabBar() {
 
     return(
         <div className='header'>
-        <img className="header-img" src="https://imgur.com/enqSQJF.png" alt=""/>
+        <img className="header-img" src="https://imgur.com/EExH9op.png" alt=""/>
 
         <a href='https://github.com/farhanyousaf786/switch-app' target="_blank" rel="noreferrer">
         <div className='fav-project'>

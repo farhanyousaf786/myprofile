@@ -210,6 +210,11 @@ textarea {
         font-size: 25px;
         padding: 0.5rem;
       }
+
+      .main-caption{
+        text-align: left;
+        width: 50%;
+      }
       
       
 }

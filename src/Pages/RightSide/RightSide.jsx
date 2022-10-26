@@ -24,8 +24,7 @@ return (
 
     <center>
     <div className="main-caption">
-    <h1><span>Hi! I am Farhan Yousaf. I am full stack developer.</span></h1>
-    <h1><span>Developed in React & Flutter.</span></h1>
+    <h1><span>Hi! I am Farhan Yousaf, a full stack Developer, who loves to take on challenges and solving problems.</span></h1>
     </div>
     </center>
 

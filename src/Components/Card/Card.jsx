@@ -16,7 +16,7 @@ function Card({title, detail, gitRep, img, platform}) {
         <div class="card">
             <div class="face face1">
                 <div class="content">
-                    <img  src={img}/>
+                    <img  src={img} alt="img"/>
                     <h3>{title}</h3>
 					<h4>Developed In "{platform}"</h4>
                 </div>
@@ -24,7 +24,7 @@ function Card({title, detail, gitRep, img, platform}) {
             <div class="face face2">
                 <div class="content">
                     <p>{detail}</p>
-                        <a href={gitRep}  target="_blank">Git Repo</a>
+                        <a href={gitRep}  target="_blank" rel="noreferrer">Git Repo</a>
                 </div>
             </div>
         </div>

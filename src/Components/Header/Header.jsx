@@ -12,7 +12,7 @@ function TabBar() {
         <div className='header'>
         <img className="header-img" src="https://imgur.com/enqSQJF.png" alt=""/>
 
-        <a href='https://github.com/farhanyousaf786/switch-app' target="_blank">
+        <a href='https://github.com/farhanyousaf786/switch-app' target="_blank" rel="noreferrer">
         <div className='fav-project'>
         {/* <h1 className='heading' >Favourite</h1>     */}
         <div className='lottie2'>  <Lottie animationData={animationData} loop={true}/></div>

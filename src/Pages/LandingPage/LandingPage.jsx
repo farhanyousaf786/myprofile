@@ -46,7 +46,7 @@ function LandingPage() {
   let oldScrollY = 0;
 
 
-const controlDirection = () => {
+  const controlDirection = () => {
     if(window.scrollY > oldScrollY) {
         setDirection('down');
     } else {
@@ -55,32 +55,26 @@ const controlDirection = () => {
     oldScrollY = window.scrollY;
 }
 
-useEffect(() => {
-    window.addEventListener('scroll', controlDirection);
-    return () => {
-        window.removeEventListener('scroll', controlDirection);
-    };
-},[controlDirection]);
+     useEffect(() => {
+     
+      window.addEventListener('scroll', controlDirection);
+      return () => {
+      window.removeEventListener('scroll', controlDirection);
+        };
+      
+    },[controlDirection]);
 
   return (
 
-    
     <div>{direction === "up" ?  isTabletOrMobile && <TabBar/> : null}
-
-
     <div className="main">
     {isDesktopOrLaptop && <LeftSide/>}
     {isDesktopOrLaptop && <RightSide handleClick1={handleClick1} handleClick2={handleClick3}/>}
     {isTabletOrMobile && <div className='tab-padding'> <RightSide handleClick1={handleClick1} handleClick2={handleClick3}/> </div>}
-
     </div>
-
-
     <div ref={ref}><MyProjects/></div>
-
     <div id='myInfo'><MyExperties /></div>
     </div>
-
   );
 }
 

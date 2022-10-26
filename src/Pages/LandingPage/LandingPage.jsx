@@ -35,6 +35,11 @@ function LandingPage() {
      
   };
 
+  const handleClick3 = () => {
+    const section = document.querySelector( '#myInfo' );
+    section.scrollIntoView( { behavior: 'smooth', block: 'start' } );
+  };
+
   
   let oldScrollY = 0;
 
@@ -64,15 +69,15 @@ useEffect(() => {
 
     <div className="main">
     {isDesktopOrLaptop && <LeftSide/>}
-    {isDesktopOrLaptop && <RightSide handleClick1={handleClick1} handleClick2={handleClick2}/>}
-    {isTabletOrMobile && <div className='tab-padding'> <RightSide handleClick1={handleClick1} handleClick2={handleClick2}/> </div>}
+    {isDesktopOrLaptop && <RightSide handleClick1={handleClick1} handleClick2={handleClick3}/>}
+    {isTabletOrMobile && <div className='tab-padding'> <RightSide handleClick1={handleClick1} handleClick2={handleClick3}/> </div>}
 
     </div>
 
 
     <div ref={ref}><MyProjects/></div>
 
-    <div ><MyExperties /></div>
+    <div id='myInfo'><MyExperties /></div>
     </div>
 
   );

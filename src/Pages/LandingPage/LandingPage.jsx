@@ -18,7 +18,6 @@ function LandingPage() {
   const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
   const [direction, setDirection] = useState('up');
 
-  // let hideHeader = "false";
 
   const ref = useRef([]);
 

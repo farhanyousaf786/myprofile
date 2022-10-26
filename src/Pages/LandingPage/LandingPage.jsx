@@ -45,27 +45,30 @@ function LandingPage() {
   let oldScrollY = 0;
 
 
-//   const controlDirection = () => {
-//     if(window.scrollY > oldScrollY) {
-//         setDirection('down');
-//     } else {
-//         setDirection('up');
-//     }
-//     oldScrollY = window.scrollY;
-// }
-
-//      useEffect(() => {
-     
-//       window.addEventListener('scroll', controlDirection);
-//       return () => {
-//       window.removeEventListener('scroll', controlDirection);
-//         };
+  const controlDirection = () => {
+    if(window.scrollY > oldScrollY) {
+        setDirection('down');
+    } else {
       
-//     },[controlDirection]);
+      if(window.pageYOffset === 0) {
+        setDirection('up');
+      }
+    }
+    oldScrollY = window.scrollY;
+}
+
+     useEffect(() => {
+     
+      window.addEventListener('scroll', controlDirection);
+      return () => {
+      window.removeEventListener('scroll', controlDirection);
+        };
+      
+    },[controlDirection]);
 
   return (
 
-    <div>{isTabletOrMobile && <TabBar/>}
+    <div>{direction === "up" ?  isTabletOrMobile && <TabBar/> : null}
     <div className="main">
     {isDesktopOrLaptop && <LeftSide/>}
     {isDesktopOrLaptop && <RightSide handleClick1={handleClick1} handleClick2={handleClick3}/>}

@@ -16,8 +16,10 @@ function LandingPage() {
 
   const isDesktopOrLaptop = useMediaQuery({query: '(min-width: 1224px)' })
   const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
+  const [direction, setDirection] = useState('up');
 
-  let hideHeader = "false";
+  // let hideHeader = "false";
+
   const ref = useRef([]);
 
 
@@ -28,12 +30,12 @@ function LandingPage() {
   };
 
  
-  const handleClick2 = () => {
+  // const handleClick2 = () => {
 
-    console.log('will show popup menu here..');
+  //   console.log('will show popup menu here..');
 
      
-  };
+  // };
 
   const handleClick3 = () => {
     const section = document.querySelector( '#myInfo' );
@@ -43,7 +45,6 @@ function LandingPage() {
   
   let oldScrollY = 0;
 
-const [direction, setDirection] = useState('up');
 
 const controlDirection = () => {
     if(window.scrollY > oldScrollY) {
@@ -59,7 +60,7 @@ useEffect(() => {
     return () => {
         window.removeEventListener('scroll', controlDirection);
     };
-},[]);
+},[controlDirection]);
 
   return (
 

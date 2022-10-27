@@ -61,9 +61,10 @@ h3{
         display: grid;
         grid-template-columns: repeat(2, 100px);
         grid-gap: 30px 60px;
-        max-width: 500px;
-        margin: auto;
-        padding-left: 10%;
+        max-width: 400px; 
+        margin: 0 auto !important; 
+        float: none !important; 
+        
     
 
     }

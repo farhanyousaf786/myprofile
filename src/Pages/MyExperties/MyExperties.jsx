@@ -32,7 +32,7 @@ return (
         
         <center><h3 className="skill-title1">Skills & Abilities</h3></center>
 
-        <div className='skillGrid'>{cards}</div>
+        <center><div className='skillGrid'>{cards}</div></center>
 
     </div>
 

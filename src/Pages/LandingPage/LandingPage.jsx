@@ -74,8 +74,9 @@ function LandingPage() {
     {isDesktopOrLaptop && <RightSide handleClick1={handleClick1} handleClick2={handleClick3}/>}
     {isTabletOrMobile && <div className='tab-padding'> <RightSide handleClick1={handleClick1} handleClick2={handleClick3}/> </div>}
     </div>
-    <div ref={ref}><MyProjects/></div>
     <div id='myInfo'><MyExperties /></div>
+
+    <div ref={ref}><MyProjects/></div>
     </div>
   );
 }

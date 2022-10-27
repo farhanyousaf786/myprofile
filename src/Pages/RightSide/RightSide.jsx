@@ -46,9 +46,9 @@ return (
 
 
     <div className="main-button">
+    <button onClick={handleClick2} className="button-0" role="button">About Me</button>
     <a  href="https://github.com/farhanyousaf786/" target="_blank"><button className="button-0" role="button">GitHub</button></a>
     <button onClick={handleClick1} className="button-0" role="button">My Projects</button>
-    <button onClick={handleClick2} className="button-0" role="button">My Experties</button>
 
     </div>
 

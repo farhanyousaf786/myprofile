@@ -2,13 +2,22 @@ import React from 'react';
 import "./SkillCard.css"
 
 
-function SkillCard() {
+function SkillCard({img, title,}) {
+
 
     return(
-    
-    
+
     <>
-    <h1>ddd</h1>
+   
+    <div className='skillCard'>
+
+        <img  src={img}></img>
+
+        <div className='skill-title'>{title}</div>
+
+
+    </div>
+  
     </>
     
 

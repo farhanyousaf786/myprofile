@@ -279,8 +279,8 @@ textarea {
 
 
 .area{
-  background: #4e54c8;  
-  background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+  background: #545bdc8e;  
+  background: -webkit-linear-gradient(to left, #8f94fbd6, #4e54c8c2);  
   width: 100%;
   
  
@@ -288,7 +288,7 @@ textarea {
 
 .circles{
   position: absolute;
-  top: 0;
+  padding-top: 60px;
   left: 0;
   width: 100%;
   height: 100%;
@@ -301,7 +301,7 @@ textarea {
   list-style: none;
   width: 20px;
   height: 20px;
-  background: rgba(6, 131, 219, 0.75);
+  background: rgba(6, 130, 219, 0.594);
   animation: animate 25s linear infinite;
   bottom: -150px;
   

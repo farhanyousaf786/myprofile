@@ -1,9 +1,9 @@
 
 import React from 'react';
-import Cards from '../../Components/Card/Card';
+import Cards from '../../Components/Cards/ProjectCard/projectCard';
 // import { useMediaQuery } from 'react-responsive'
 import './MyProjects.css';
-import cardsArr from '../../Components/Card/Data';
+import cardsArr from '../../Components/Cards/ProjectCard/Data';
 
 
 

@@ -3,11 +3,12 @@
 .skillCard{
     height: 100px;
     width: 120px;
-    background-color: rgba(0, 0, 0, 0.472);
+    background-color: rgba(0, 0, 0, 0.647);
     border-radius: 30px;
-   
     padding-top: 10%;
     text-align: center;
+    box-shadow: 0 5px 5px rgba(34, 33, 33, 0.8);
+
 }
 
 

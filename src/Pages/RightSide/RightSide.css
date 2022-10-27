@@ -268,7 +268,17 @@ textarea {
 
       }
       
-
+      .profile-img-mobile{
+        width: 180px;
+        height: 180px;
+        border-radius: 100px;
+        border: #ffffff solid 3px;
+        background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+        box-shadow: 0 0.7em 1.5em -0.5em #00000098;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        
+        }
 }
 
 

@@ -4,6 +4,10 @@ export default [
         "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
     },
     {
+        "name": "Flutter",
+        "icon": "https://imgur.com/lypux0n.png"
+    },
+    {
         "name": "ExpressJS",
         "icon": "https://img.icons8.com/fluency/48/000000/node-js.png"
     },
@@ -60,13 +64,13 @@ export default [
         "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
     },
     {
-        "name": "Kotlin",
-        "icon": "https://img.icons8.com/color/48/000000/kotlin.png"
+        "name": "Dart",
+        "icon": "https://imgur.com/sq4U3L9.png"
     },
-    {
-        "name": "PHP",
-        "icon": "https://img.icons8.com/offices/48/000000/php-logo.png"
-    },
+    // {
+    //     "name": "PHP",
+    //     "icon": "https://img.icons8.com/offices/48/000000/php-logo.png"
+    // },
     {
         "name": "Python",
         "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
@@ -103,10 +107,10 @@ export default [
         "name": "DigitalOcean",
         "icon": "https://img.icons8.com/ios-filled/48/0080FF/digitalocean.png"
     },
-    {
-        "name": "jQuery",
-        "icon": "https://img.icons8.com/ios-filled/48/1169ae/jquery.png"
-    },
+    // {
+    //     "name": "jQuery",
+    //     "icon": "https://img.icons8.com/ios-filled/48/1169ae/jquery.png"
+    // },
     {
         "name": "Git VCS",
         "icon": "https://img.icons8.com/color/48/000000/git.png"

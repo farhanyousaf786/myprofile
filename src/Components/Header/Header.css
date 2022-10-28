@@ -10,6 +10,8 @@ background-color: #00a8f0;
 box-shadow: 0 0.7em 1.5em -0.4em #00000098;
 margin-bottom: 10px;
 position: fixed;
+  border-bottom-right-radius: 100px;
+  /* border-top-right-radius: 100px; */
 
 }
 

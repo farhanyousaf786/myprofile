@@ -290,8 +290,8 @@ textarea {
 
 
 .area{
-  background: #545bdc8e;  
-  background: -webkit-linear-gradient(to left, #8f94fbd6, #4e54c8c2);  
+  background: #898ef068;  
+  background: -webkit-linear-gradient(to left, #8f94fba5, #4e54c8a3);  
   width: 100%;
   
  
@@ -312,7 +312,7 @@ textarea {
   list-style: none;
   width: 20px;
   height: 20px;
-  background: rgba(6, 130, 219, 0.594);
+  background: rgba(25, 140, 223, 0.514);
   animation: animate 25s linear infinite;
   bottom: -150px;
   

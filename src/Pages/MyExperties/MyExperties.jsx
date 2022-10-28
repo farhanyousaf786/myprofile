@@ -21,9 +21,8 @@ return (
 
 
     <div className="my-Info">
-
-        <center><h1>Having 3+ years of experience in React and Flutter. I focus on developing user friendly applications with responsive user interface. Moreover, I have developed 5 Applications, reached 150k+ Users and 30k+ daily active users. </h1></center> 
         <center><h3 className="skill-title1">Skills & Abilities</h3></center>
+        <center><h1>Having 3+ years of experience in React and Flutter. I focus on developing user friendly applications with responsive user interface. Moreover, I have developed 5 Applications, reached 150k+ Users and 30k+ daily active users. </h1></center> 
         <center><div className='skillGrid'>{cards}</div></center>
 
     </div>

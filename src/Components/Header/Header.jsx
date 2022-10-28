@@ -10,9 +10,9 @@ function TabBar() {
 
     return(
         <div className='header'>
-        <img className="header-img" src="https://imgur.com/EExH9op.png" alt=""/>
+        {/* <img className="header-img" src="https://imgur.com/EExH9op.png" alt=""/> */}
 
-        <a href='https://github.com/farhanyousaf786/switch-app' target="_blank" rel="noreferrer">
+        <a className='header-img' href='https://github.com/farhanyousaf786/switch-app' target="_blank" rel="noreferrer">
         <div className='fav-project'>
         {/* <h1 className='heading' >Favourite</h1>     */}
         <div className='lottie2'>  <Lottie animationData={animationData} loop={true}/></div>

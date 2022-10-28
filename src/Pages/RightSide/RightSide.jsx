@@ -42,7 +42,8 @@ return (
 
     <center>
     <div className="main-caption">
-    <h1><span>Hi! I am Farhan Yousaf, a full stack Developer, who loves to take on challenges and solving problems.</span></h1>
+    <h1><span>Hi! I am Farhan Yousaf, a full stack Developer, who loves to take on challenges and solving problems. Being a creative person I prefer the Software Development Industry, so I can utilize my creativity to develop software to resolve real world problems. </span></h1>
+    
     </div>
     </center>
 

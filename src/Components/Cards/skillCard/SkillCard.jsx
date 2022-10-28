@@ -11,7 +11,7 @@ function SkillCard({img, title,}) {
    
     <div className='skillCard'>
 
-        <img  src={img}></img>
+        <img className='skill-img' src={img}></img>
 
         <div className='skill-title'>{title}</div>
 

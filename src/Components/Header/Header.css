@@ -10,7 +10,7 @@ background-color: #00a8f0;
 box-shadow: 0 0.7em 1.5em -0.4em #00000098;
 margin-bottom: 10px;
 position: fixed;
-  border-bottom-right-radius: 100px;
+border-bottom-right-radius: 50px;
   /* border-top-right-radius: 100px; */
 
 }
@@ -21,20 +21,11 @@ position: fixed;
     height: 40px;
     border-radius: 100px;
     box-shadow: 0 0.7em 1em -0.8em #00000098;
-    position: fixed;
-    padding: 5px;
-    margin: 5px;
+
   
 }
 
-.fav-project{
 
-  display: flex;
-  padding: 1px;
- 
-  
-
-}
 
 .lottie2{
 
@@ -43,20 +34,6 @@ position: fixed;
   
 }
 
-/* h1{
-  font-family: 'Belgrano';
-  max-width: 60ch;
-  text-align: center;
-  margin: auto;
-  font-size: 15px;
-
-}
 
 
-.heading{
 
- font-family: 'Belgrano';
- padding-bottom: 22px;
- font-size: 16px;
-
-} */

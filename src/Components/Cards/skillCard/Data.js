@@ -122,5 +122,11 @@ export default [
     {
         "name": "WordPress",
         "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
-    }    
+    },
+    {
+
+     "name": "Hostinger",
+     "icon": "https://imgur.com/mzk2Xme.png",
+
+    } 
 ]

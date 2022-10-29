@@ -13,6 +13,7 @@ import MyExperties from '../MyExperties/MyExperties';
 
 
 function LandingPage() {
+  
 
   const isDesktopOrLaptop = useMediaQuery({query: '(min-width: 1224px)' })
   const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
@@ -63,8 +64,16 @@ function LandingPage() {
       return () => {
       window.removeEventListener('scroll', controlDirection);
         };
-      
+
     },[controlDirection]);
+
+    
+
+ 
+
+
+
+
 
   return (
 
@@ -77,6 +86,7 @@ function LandingPage() {
     <div id='myInfo'><MyExperties /></div>
 
     <div ref={ref}><MyProjects/></div>
+
     </div>
   );
 }

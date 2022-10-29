@@ -42,7 +42,7 @@ return (
 
     <center>
     <div className="main-caption">
-    <h1><span>Hi! I am Farhan Yousaf, a full stack Developer, who loves to take on challenges and solving problems. Being a creative person I prefer the Software Development Industry, so I can utilize my creativity and skills to develop software to resolve real world problems. </span></h1>
+    <h1><span>Hi! I am Farhan Yousaf, a full stack Developer who loves to take on challenges and solving problems. Being a creative person I prefer the Software Development Industry, so I can utilize my creativity and skills to develop software to resolve real world problems. </span></h1>
     
     </div>
     </center>
@@ -51,8 +51,9 @@ return (
 
     <div className="main-button">
     <button onClick={handleClick2} className="button-0" role="button">My Skills</button>
-    <a  href="https://github.com/farhanyousaf786/" target="_blank"><button className="button-0" role="button">GitHub</button></a>
     <button onClick={handleClick1} className="button-0" role="button">My Projects</button>
+    <a  href="https://github.com/farhanyousaf786/" target="_blank"><button className="button-0" role="button">GitHub</button></a>
+
 
     </div>
 

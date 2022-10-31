@@ -1,5 +1,5 @@
 import Lottie from "lottie-react";
-import animationData from './developer.json';
+import animationData from './front-img.json';
 import React from 'react';
 import { useMediaQuery } from 'react-responsive'
 import './RightSide.css';

@@ -107,10 +107,7 @@ export default [
         "name": "DigitalOcean",
         "icon": "https://img.icons8.com/ios-filled/48/0080FF/digitalocean.png"
     },
-    // {
-    //     "name": "jQuery",
-    //     "icon": "https://img.icons8.com/ios-filled/48/1169ae/jquery.png"
-    // },
+  
     {
         "name": "Git VCS",
         "icon": "https://img.icons8.com/color/48/000000/git.png"

@@ -35,6 +35,16 @@ export default [
       detail: "Tect used are HTML, Script, CSS + CSS Table, PixelLab (To create Logos), GitHub for version control.",
         gitRepo: "https://github.com/farhanyousaf786/Connect-Four"
     },
+
+    {
+
+      platform: 'Java-Script',
+
+      img: "https://imgur.com/GeoZMO0.png",
+      title: "Hexagon Scaffolding",
+      detail: "Tect used are HTML, Script, CSS + CSS Table, PixelLab (To create Logos), GitHub for version control.",
+        gitRepo: "https://github.com/farhanyousaf786/hexagon"
+    },
   
    
   ];

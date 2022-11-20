@@ -67,14 +67,6 @@ function LandingPage() {
 
     },[controlDirection]);
 
-    
-
- 
-
-
-
-
-
   return (
 
     <div>{direction === "up" ?  isTabletOrMobile && <TabBar/> : null}
